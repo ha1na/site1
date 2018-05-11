@@ -1,7 +1,7 @@
 /* main page layout */
 #wrap {}
 #header { height: 89px; border-bottom: 1px solid #efefef;}
-#banner { height: 550px; background: url(../img/banner-bg.jpg) no-repeat center top;}
+#banner {  }
 #sbanner { border-top: 1px solid #efefef; }
 #select { background-color: #104e7b; }
 #info { }
@@ -53,6 +53,9 @@
 .banner em {font-size: 18px; color:#f66b50; display: block;}
 .banner .view {font-size: 16px; display: inline-block; margin-top: 50px; border: 1px solid #333; background-color: #fff; padding: 12px 42px; transition: all 0.3s ease;}
 .banner .view:hover {color:#fff; background-color: #333; }
+.banner-img1 {background: url(../img/banner-bg.jpg) no-repeat center top;}
+.banner-img2 {background: url(../img/banner-bg2.jpg) no-repeat center top;}
+.banner-img3 {background: url(../img/banner-bg3.jpg) no-repeat center top;}
 
 /* sbanner */
 .sbanner {overflow: hidden; padding: 70px 0;}
@@ -118,14 +121,19 @@
 .info2 h3 {font-size: 40px; padding-bottom: 20px; font-weight: 400;}
 .info2 .info-btn {font-size: 16px; display: inline-block; border: 1px solid #333; background-color: #fff; padding: 12px 42px; transition: all 0.3s ease; margin-bottom: 50px;}
 .info2 .info-btn:hover {color:#fff; background-color: #333; }
-.info2 .info-box {overflow: hidden;}
-.info2 .info-box .in-left {overflow: hidden;float: left; width: 50%; text-align: left; background-color: red;}
+.info2 .info-box {overflow: hidden; text-align: left;}
+.info2 .info-box .in-left {overflow: hidden;float: left; width: 40%; padding-left: 10%; }
 .info2 .info-box .in-left h4 {float: left; width: 110px; height: 80px; background-color: #1d7abd; color:#fff; font-size: 16px;  border-radius: 50%; text-align: center; padding-top: 30px;}
-.info2 .info-box .in-left ul {float: left;}
-.info2 .info-box .in-left ul li {}
-.info2 .info-box .in-left em
-.info2 .info-box .in-left strong
-.info2 .info-box .in-right {float: left; width: 50%; text-align: left;}
+.info2 .info-box .in-left ul {float: left; padding-top: 20px; padding-left: 20px;}
+.info2 .info-box .in-left ul li {padding-bottom: 10px;}
+.info2 .info-box .in-left em {font-size: 16px; width: 170px; display: inline-block;}
+.info2 .info-box .in-left strong {font-size: 16px; color: #0081c8;}
+.info2 .info-box .in-right {float: left; width: 50%;  }
+.info2 .info-box .in-right h4 {float: left; width: 110px; height: 90px; background-color: #1d7abd; color:#fff; font-size: 16px;  border-radius: 50%; text-align: center; padding-top: 20px;}
+.info2 .info-box .in-right ul {float: left; padding-top: 20px; padding-left: 20px;}
+.info2 .info-box .in-right ul li {padding-bottom: 10px;}
+.info2 .info-box .in-right em {font-size: 16px; width: 100px; display: inline-block;}
+.info2 .info-box .in-right strong {font-size: 16px; color: #0081c8;}
 
 /* ad */
 .ad {padding: 85px 0; text-align: center; color: #fff; z-index: 10; position: relative;}
