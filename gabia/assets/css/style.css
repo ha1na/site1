@@ -325,9 +325,10 @@
 
 /* qna */
 .qna {padding: 70px 0; overflow: hidden;}
-.qna h3 {float: left; width: 80%;font-size: 32px;}
-.qna p {float: right; width: 20%;font-size: 16px; color: #666; }
+.qna h3 {float: left; font-size: 32px;}
+.qna h3 em {  font-size: 16px; color: #666; padding-left: 740px; padding-top: 30px; display: inline-block;}
 .qna ul {}
+.qna ul li a {  }
 
 
 
