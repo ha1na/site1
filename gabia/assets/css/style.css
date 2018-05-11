@@ -23,6 +23,7 @@
 #idc-cont2 {border-bottom: 1px  solid #f2f2f2;}
 #idc-cont3 {}
 #select5 {background: #146199;}
+#qna {}
 
 
 /* container */
@@ -322,12 +323,11 @@
 .idc-cont4 h3 {display: inline-block; font-size: 40px; color: #fff; float: left; width: 30%;}
 .idc-cont4 >div {float: left; width: 30%;}
 
-/* table-style2 */
-.table-style2 {}
-
-
-/* table-style3 */
-.table-style3 {}
+/* qna */
+.qna {padding: 70px 0; overflow: hidden;}
+.qna h3 {float: left; width: 80%;font-size: 32px;}
+.qna p {float: right; width: 20%;font-size: 16px; color: #666; }
+.qna ul {}
 
 
 
